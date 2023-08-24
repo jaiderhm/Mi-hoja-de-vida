@@ -1,0 +1,117 @@
+*{
+    font-style: italic;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 200px;
+    padding: 10px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+fieldset{
+    margin-bottom: 12px;
+}
+
+legend{
+    background-color: steelblue ;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#nmb{
+    background-color: white ;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+img{
+    border: 1px solid steelblue;
+    border-radius: 100%;
+}
+
+.info{
+    justify-content: center;
+}
+
+table{
+   border-radius: 6px;
+   border-color: rgb(151, 149, 149);
+   align-items: center;
+   text-align: center;
+   padding-top: 10px; 
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   border: 1px solid black;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+}
+
+.titulo h1{
+    color: steelblue;
+    font-size: 60px;
+}
+
+.hoja1{
+    margin: 20px;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    font-size: 80px;
+    padding: 20px 0px 0px 0px;
+    width: 14ch;
+    animation: typing 2s steps(14),    blink .6s infinite step-end alternate ;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(14),    blink .6s infinite step-end alternate ;
+}
+
+@keyframes typing{
+    from { width: 0}
+}
+
+@keyframes blink{
+    50%{ border-color: transparent;}
+}
+
+.bloque{
+    display: block;
+    width: 900px;
+    height: 920px;
+    padding: 20px;
+    margin: 0px 0px 0px 20px ;
+    background: steelblue;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid gray;
+}
+
+#img{
+    margin: 10px 0px 0px 60px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+}
