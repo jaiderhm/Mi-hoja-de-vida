@@ -1,3 +1,7 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 *{
     font-style: italic;
 }
@@ -32,7 +36,7 @@ legend{
 }
 
 img{
-    border: 1px solid steelblue;
+    border: 1px solid whitesmoke;
     border-radius: 100%;
 }
 
@@ -118,17 +122,25 @@ table{
 
 .logo{
     background-color: steelblue;
+    border: 1px solid white;
+    color: whitesmoke;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 .logo:hover{
     background-color: transparent;
     height: 40px;
     width: 40px;
-    border-radius: 30%;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 30%;
-    -ms-border-radius: 30%;
-    -o-border-radius: 30%;
+    animation-duration: 4s;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 
 .loader {
