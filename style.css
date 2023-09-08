@@ -6,7 +6,7 @@ html{
     font-style: italic;
 }
 
-body{
+.flex_container{
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -17,6 +17,7 @@ body{
     border-radius: 6px;
     border: 1px solid gray;
 }
+
 fieldset{
     margin-bottom: 12px;
 }
@@ -69,7 +70,6 @@ table{
 
 .hoja1{
     margin: 20px;
-    display: block;
     white-space: nowrap;
     border-right: 4px solid;
     font-size: 80px;
@@ -89,7 +89,7 @@ table{
 }
 
 .bloque{
-    display: block;
+
     width: 900px;
     height: 920px;
     padding: 20px;
@@ -109,7 +109,7 @@ table{
 
 .body{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
 }
 
 .iconos{
