@@ -60,7 +60,7 @@ html {
 }
 
 fieldset {
-  margin-bottom: 10px; 
+  margin-bottom: 8px; 
 }
 
 legend {
@@ -139,12 +139,12 @@ table {
   padding: 20px;
   margin: 0px 0px 0px 20px;
   background: steelblue;
-  border-radius: 6px 0px 0px 6px;
-  -webkit-border-radius: 6px 0px 0px 6px;
-  -moz-border-radius: 6px 0px 0px 6px;
-  -ms-border-radius: 6px 0px 0px 6px;
-  -o-border-radius: 6px 0px 0px 6px;
-  border: 1px solid gray;
+  border-radius: 8px 0px 0px 8px;
+  -webkit-border-radius: 8px 0px 0px 8px;
+  -moz-border-radius: 8px 0px 0px 8px;
+  -ms-border-radius: 8px 0px 0px 8px;
+  -o-border-radius: 8px 0px 0px 8px;
+
 }
 
 #img {
@@ -154,6 +154,9 @@ table {
 .body {
   display: flex;
   flex-direction: column;
+  width: 1000px;
+  height: 965px;
+  background: linear-gradient(35deg, steelblue, transparent);
 }
 
 .iconos {
